@@ -15,6 +15,11 @@
 		DF41210620203A1200546318 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF41210420203A1200546318 /* LaunchScreen.storyboard */; };
 		DF41211120203A1300546318 /* CoreGraphicsTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF41211020203A1300546318 /* CoreGraphicsTutorialTests.swift */; };
 		DF41211C20203A1300546318 /* CoreGraphicsTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF41211B20203A1300546318 /* CoreGraphicsTutorialUITests.swift */; };
+		DF41212B2020467E00546318 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF41212A2020467E00546318 /* CoreGraphics.framework */; };
+		DF41212E202046A100546318 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF41212C202046A100546318 /* QuartzCore.framework */; };
+		DF41212F202046A100546318 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF41212D202046A100546318 /* CoreImage.framework */; };
+		DF4121312020480400546318 /* ParentClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4121302020480300546318 /* ParentClass.swift */; };
+		DF4121332020517A00546318 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4121322020517A00546318 /* Line.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		DF41211720203A1300546318 /* CoreGraphicsTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreGraphicsTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF41211B20203A1300546318 /* CoreGraphicsTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreGraphicsTutorialUITests.swift; sourceTree = "<group>"; };
 		DF41211D20203A1300546318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF41212A2020467E00546318 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DF41212C202046A100546318 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DF41212D202046A100546318 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		DF4121302020480300546318 /* ParentClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentClass.swift; sourceTree = "<group>"; };
+		DF4121322020517A00546318 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF41212E202046A100546318 /* QuartzCore.framework in Frameworks */,
+				DF41212F202046A100546318 /* CoreImage.framework in Frameworks */,
+				DF41212B2020467E00546318 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +96,7 @@
 				DF41210F20203A1300546318 /* CoreGraphicsTutorialTests */,
 				DF41211A20203A1300546318 /* CoreGraphicsTutorialUITests */,
 				DF4120F620203A1100546318 /* Products */,
+				DF4121292020467E00546318 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +113,8 @@
 		DF4120F720203A1100546318 /* CoreGraphicsTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				DF4121302020480300546318 /* ParentClass.swift */,
+				DF4121322020517A00546318 /* Line.swift */,
 				DF4120F820203A1100546318 /* AppDelegate.swift */,
 				DF4120FA20203A1200546318 /* ViewController.swift */,
 				DF4120FC20203A1200546318 /* Main.storyboard */,
@@ -126,6 +142,16 @@
 				DF41211D20203A1300546318 /* Info.plist */,
 			);
 			path = CoreGraphicsTutorialUITests;
+			sourceTree = "<group>";
+		};
+		DF4121292020467E00546318 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF41212D202046A100546318 /* CoreImage.framework */,
+				DF41212C202046A100546318 /* QuartzCore.framework */,
+				DF41212A2020467E00546318 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF4121312020480400546318 /* ParentClass.swift in Sources */,
 				DF4120FB20203A1200546318 /* ViewController.swift in Sources */,
 				DF4120F920203A1100546318 /* AppDelegate.swift in Sources */,
 				DF41210120203A1200546318 /* CoreGraphicsTutorial.xcdatamodeld in Sources */,
+				DF4121332020517A00546318 /* Line.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
