@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF4120F920203A1100546318 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4120F820203A1100546318 /* AppDelegate.swift */; };
+		DF4120FB20203A1200546318 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4120FA20203A1200546318 /* ViewController.swift */; };
+		DF4120FE20203A1200546318 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF4120FC20203A1200546318 /* Main.storyboard */; };
+		DF41210120203A1200546318 /* CoreGraphicsTutorial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF4120FF20203A1200546318 /* CoreGraphicsTutorial.xcdatamodeld */; };
+		DF41210320203A1200546318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF41210220203A1200546318 /* Assets.xcassets */; };
+		DF41210620203A1200546318 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF41210420203A1200546318 /* LaunchScreen.storyboard */; };
+		DF41211120203A1300546318 /* CoreGraphicsTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF41211020203A1300546318 /* CoreGraphicsTutorialTests.swift */; };
+		DF41211C20203A1300546318 /* CoreGraphicsTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF41211B20203A1300546318 /* CoreGraphicsTutorialUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF41210D20203A1300546318 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF4120ED20203A1100546318 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF4120F420203A1100546318;
+			remoteInfo = CoreGraphicsTutorial;
+		};
+		DF41211820203A1300546318 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF4120ED20203A1100546318 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF4120F420203A1100546318;
+			remoteInfo = CoreGraphicsTutorial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF4120F520203A1100546318 /* CoreGraphicsTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreGraphicsTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF4120F820203A1100546318 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF4120FA20203A1200546318 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF4120FD20203A1200546318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF41210020203A1200546318 /* CoreGraphicsTutorial.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreGraphicsTutorial.xcdatamodel; sourceTree = "<group>"; };
+		DF41210220203A1200546318 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF41210520203A1200546318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF41210720203A1200546318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF41210C20203A1300546318 /* CoreGraphicsTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreGraphicsTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF41211020203A1300546318 /* CoreGraphicsTutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreGraphicsTutorialTests.swift; sourceTree = "<group>"; };
+		DF41211220203A1300546318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF41211720203A1300546318 /* CoreGraphicsTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreGraphicsTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF41211B20203A1300546318 /* CoreGraphicsTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreGraphicsTutorialUITests.swift; sourceTree = "<group>"; };
+		DF41211D20203A1300546318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF4120F220203A1100546318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF41210920203A1300546318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF41211420203A1300546318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF4120EC20203A1100546318 = {
+			isa = PBXGroup;
+			children = (
+				DF4120F720203A1100546318 /* CoreGraphicsTutorial */,
+				DF41210F20203A1300546318 /* CoreGraphicsTutorialTests */,
+				DF41211A20203A1300546318 /* CoreGraphicsTutorialUITests */,
+				DF4120F620203A1100546318 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF4120F620203A1100546318 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF4120F520203A1100546318 /* CoreGraphicsTutorial.app */,
+				DF41210C20203A1300546318 /* CoreGraphicsTutorialTests.xctest */,
+				DF41211720203A1300546318 /* CoreGraphicsTutorialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF4120F720203A1100546318 /* CoreGraphicsTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				DF4120F820203A1100546318 /* AppDelegate.swift */,
+				DF4120FA20203A1200546318 /* ViewController.swift */,
+				DF4120FC20203A1200546318 /* Main.storyboard */,
+				DF41210220203A1200546318 /* Assets.xcassets */,
+				DF41210420203A1200546318 /* LaunchScreen.storyboard */,
+				DF41210720203A1200546318 /* Info.plist */,
+				DF4120FF20203A1200546318 /* CoreGraphicsTutorial.xcdatamodeld */,
+			);
+			path = CoreGraphicsTutorial;
+			sourceTree = "<group>";
+		};
+		DF41210F20203A1300546318 /* CoreGraphicsTutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF41211020203A1300546318 /* CoreGraphicsTutorialTests.swift */,
+				DF41211220203A1300546318 /* Info.plist */,
+			);
+			path = CoreGraphicsTutorialTests;
+			sourceTree = "<group>";
+		};
+		DF41211A20203A1300546318 /* CoreGraphicsTutorialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF41211B20203A1300546318 /* CoreGraphicsTutorialUITests.swift */,
+				DF41211D20203A1300546318 /* Info.plist */,
+			);
+			path = CoreGraphicsTutorialUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF4120F420203A1100546318 /* CoreGraphicsTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF41212020203A1300546318 /* Build configuration list for PBXNativeTarget "CoreGraphicsTutorial" */;
+			buildPhases = (
+				DF4120F120203A1100546318 /* Sources */,
+				DF4120F220203A1100546318 /* Frameworks */,
+				DF4120F320203A1100546318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreGraphicsTutorial;
+			productName = CoreGraphicsTutorial;
+			productReference = DF4120F520203A1100546318 /* CoreGraphicsTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF41210B20203A1300546318 /* CoreGraphicsTutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF41212320203A1300546318 /* Build configuration list for PBXNativeTarget "CoreGraphicsTutorialTests" */;
+			buildPhases = (
+				DF41210820203A1300546318 /* Sources */,
+				DF41210920203A1300546318 /* Frameworks */,
+				DF41210A20203A1300546318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF41210E20203A1300546318 /* PBXTargetDependency */,
+			);
+			name = CoreGraphicsTutorialTests;
+			productName = CoreGraphicsTutorialTests;
+			productReference = DF41210C20203A1300546318 /* CoreGraphicsTutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF41211620203A1300546318 /* CoreGraphicsTutorialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF41212620203A1300546318 /* Build configuration list for PBXNativeTarget "CoreGraphicsTutorialUITests" */;
+			buildPhases = (
+				DF41211320203A1300546318 /* Sources */,
+				DF41211420203A1300546318 /* Frameworks */,
+				DF41211520203A1300546318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF41211920203A1300546318 /* PBXTargetDependency */,
+			);
+			name = CoreGraphicsTutorialUITests;
+			productName = CoreGraphicsTutorialUITests;
+			productReference = DF41211720203A1300546318 /* CoreGraphicsTutorialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF4120ED20203A1100546318 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Vayam Technologies limited";
+				TargetAttributes = {
+					DF4120F420203A1100546318 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DF41210B20203A1300546318 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DF4120F420203A1100546318;
+					};
+					DF41211620203A1300546318 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DF4120F420203A1100546318;
+					};
+				};
+			};
+			buildConfigurationList = DF4120F020203A1100546318 /* Build configuration list for PBXProject "CoreGraphicsTutorial" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF4120EC20203A1100546318;
+			productRefGroup = DF4120F620203A1100546318 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF4120F420203A1100546318 /* CoreGraphicsTutorial */,
+				DF41210B20203A1300546318 /* CoreGraphicsTutorialTests */,
+				DF41211620203A1300546318 /* CoreGraphicsTutorialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF4120F320203A1100546318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF41210620203A1200546318 /* LaunchScreen.storyboard in Resources */,
+				DF41210320203A1200546318 /* Assets.xcassets in Resources */,
+				DF4120FE20203A1200546318 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF41210A20203A1300546318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF41211520203A1300546318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF4120F120203A1100546318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF4120FB20203A1200546318 /* ViewController.swift in Sources */,
+				DF4120F920203A1100546318 /* AppDelegate.swift in Sources */,
+				DF41210120203A1200546318 /* CoreGraphicsTutorial.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF41210820203A1300546318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF41211120203A1300546318 /* CoreGraphicsTutorialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF41211320203A1300546318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF41211C20203A1300546318 /* CoreGraphicsTutorialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF41210E20203A1300546318 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF4120F420203A1100546318 /* CoreGraphicsTutorial */;
+			targetProxy = DF41210D20203A1300546318 /* PBXContainerItemProxy */;
+		};
+		DF41211920203A1300546318 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF4120F420203A1100546318 /* CoreGraphicsTutorial */;
+			targetProxy = DF41211820203A1300546318 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF4120FC20203A1200546318 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF4120FD20203A1200546318 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF41210420203A1200546318 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF41210520203A1200546318 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF41211E20203A1300546318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF41211F20203A1300546318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF41212120203A1300546318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N5X572ZG44;
+				INFOPLIST_FILE = CoreGraphicsTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vayam.CoreGraphicsTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF41212220203A1300546318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N5X572ZG44;
+				INFOPLIST_FILE = CoreGraphicsTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vayam.CoreGraphicsTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF41212420203A1300546318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N5X572ZG44;
+				INFOPLIST_FILE = CoreGraphicsTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vayam.CoreGraphicsTutorialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreGraphicsTutorial.app/CoreGraphicsTutorial";
+			};
+			name = Debug;
+		};
+		DF41212520203A1300546318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N5X572ZG44;
+				INFOPLIST_FILE = CoreGraphicsTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vayam.CoreGraphicsTutorialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreGraphicsTutorial.app/CoreGraphicsTutorial";
+			};
+			name = Release;
+		};
+		DF41212720203A1300546318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N5X572ZG44;
+				INFOPLIST_FILE = CoreGraphicsTutorialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vayam.CoreGraphicsTutorialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoreGraphicsTutorial;
+			};
+			name = Debug;
+		};
+		DF41212820203A1300546318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N5X572ZG44;
+				INFOPLIST_FILE = CoreGraphicsTutorialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vayam.CoreGraphicsTutorialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoreGraphicsTutorial;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF4120F020203A1100546318 /* Build configuration list for PBXProject "CoreGraphicsTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF41211E20203A1300546318 /* Debug */,
+				DF41211F20203A1300546318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF41212020203A1300546318 /* Build configuration list for PBXNativeTarget "CoreGraphicsTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF41212120203A1300546318 /* Debug */,
+				DF41212220203A1300546318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF41212320203A1300546318 /* Build configuration list for PBXNativeTarget "CoreGraphicsTutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF41212420203A1300546318 /* Debug */,
+				DF41212520203A1300546318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF41212620203A1300546318 /* Build configuration list for PBXNativeTarget "CoreGraphicsTutorialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF41212720203A1300546318 /* Debug */,
+				DF41212820203A1300546318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DF4120FF20203A1200546318 /* CoreGraphicsTutorial.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF41210020203A1200546318 /* CoreGraphicsTutorial.xcdatamodel */,
+			);
+			currentVersion = DF41210020203A1200546318 /* CoreGraphicsTutorial.xcdatamodel */;
+			path = CoreGraphicsTutorial.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DF4120ED20203A1100546318 /* Project object */;
+}
